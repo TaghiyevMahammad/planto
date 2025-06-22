@@ -149,19 +149,21 @@ nav a {
 }
 
 .topcontent h1{
-    font-size: clamp(36px, 8vw, 118px);
+    font-size: clamp(36px, 8vw, 100px);
     opacity: 75%;
     font-weight: 600;
     
 }
 .topcontent p {
-    font-size: clamp(14px, 2.5vw, 23px);
+    font-size: clamp(14px, 2.5vw, 20px);
     opacity: 75%;
     font-weight: 500;
     width: 70%;
 }
 .section1 {
     padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .explorepart {
@@ -191,11 +193,12 @@ nav a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: filter 0.3s ease;
+    transition: background 0.3s ease;
 }
 
 .exploreBtn:hover {
-    filter: brightness(0.5) contrast(2) saturate(300%) hue-rotate(80deg);
+    background: white;
+    color:rgb(3, 46, 3) ;
 }
 
 .bgellipse {
@@ -305,4 +308,35 @@ nav a {
 
 
 }
+.rightcontainer {
+    height: 644px;
+    width: 512px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(20px);        
+    -webkit-backdrop-filter: blur(20px); 
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); 
+    border-radius: 77px;
+}
 
+.righthanding {
+    padding-right: 30px;
+}
+
+@media screen and (max-width:1400px) {
+    .section1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightcontainer {
+        margin-top: 40px;
+        height: 459px;
+        width: 312px;
+        margin-right: 0;
+    }
+    .righthanding {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
