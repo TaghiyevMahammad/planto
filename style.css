@@ -7,6 +7,7 @@
     
 }
 
+
 header {
     background: url('images/background.png');
     height: 2592px;
@@ -317,10 +318,12 @@ nav a {
     border: 2px solid rgba(255, 255, 255, 0.3); 
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); 
     border-radius: 77px;
+    /* overflow: hidden; */
 }
 
 .righthanding {
     padding-right: 30px;
+    
 }
 
 @media screen and (max-width:1400px) {
@@ -348,4 +351,107 @@ nav a {
     .righthanding {
        
     }
+}
+
+
+.righthanding {
+   
+}
+
+.rightcontainer {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding-top: 20px;
+
+}
+
+.plantspart1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.plant1 {
+    position: relative;
+    top: -100px;
+    z-index: 2;
+}
+
+.plant1p2 {
+    font-size: 38px;
+    margin-left: 15px;
+    
+}
+
+.plant1p {
+    font-size: 23px;
+    margin-left: 15px;
+    font-weight: 400;
+
+}
+.buynowBtn {
+    font-size: 28px;    
+    height:  64px;
+    padding: 0  50px;
+    border-radius: 12px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    opacity: 75%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.buynowBtn:hover {
+    background: white;
+    color:rgb(3, 46, 3) ;
+}
+
+.arrow1 {
+    display: flex;
+    justify-content: space-between;
+}
+.arrow1 img{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1400px) {
+    .plant1 {
+        height: 288px;
+        top:-20px;
+        padding-left: 15px;
+    }
+    .plant1p {
+        font-size: 14px;
+    }
+    .plant1p2 {
+        font-size: 23px;
+    }
+
+    .buynowBtn {
+        font-size: 16px;
+        height: 34px;
+        width: 109px;
+        padding: 0;
+    }
+    .rightcontainer {
+        text-align: center;
+    }
+    .plant1p2 {
+        padding-left: 45px;
+    }
+    .buynowBtn {
+        margin-left: 95px;
+    }
+    .pla
+
 }
