@@ -346,16 +346,15 @@ nav a {
 }
 @media screen and (max-width:380px) {
     .section1 {
-        display:inline;
+        padding-inline: 25px;
+    }
+    .lefthanding {
+        padding-inline: 0;
     }
     .righthanding {
-       
+        padding-inline: 0
+        ;
     }
-}
-
-
-.righthanding {
-   
 }
 
 .rightcontainer {
@@ -452,6 +451,5 @@ nav a {
     .buynowBtn {
         margin-left: 95px;
     }
-    .pla
 
 }
