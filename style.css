@@ -361,7 +361,6 @@ nav a {
     display: flex;
     justify-content: center;
     text-align: start;
-    padding-top: 20px;
 
 }
 
@@ -381,6 +380,7 @@ nav a {
 .plant1p2 {
     font-size: 38px;
     margin-left: 15px;
+    top: -80px;
     
 }
 
@@ -431,9 +431,12 @@ nav a {
     }
     .plant1p {
         font-size: 14px;
+        margin: 0;
+        padding-bottom: 15px;
     }
     .plant1p2 {
         font-size: 23px;
+        
     }
 
     .buynowBtn {
@@ -444,12 +447,20 @@ nav a {
     }
     .rightcontainer {
         text-align: center;
+        align-items: center;
     }
-    .plant1p2 {
-        padding-left: 45px;
-    }
+    
     .buynowBtn {
-        margin-left: 95px;
+        margin-inline: 101px;
+    }
+    .arrow1 {
+        justify-content: center;
+        margin-bottom: 15px;
+        gap: 25px;
+    }
+
+    .arrow1 p {
+        padding-left: 30px;
     }
 
 }
