@@ -489,6 +489,15 @@ nav a {
     font-weight: 600;
 }
 
+.trendytittle {
+    text-align: center; 
+    font-size: 55px; 
+    font-weight: 600; 
+    padding-block:120px ; 
+    padding-inline: 10px;
+}
+
+
 .group2 {
     flex-direction: row-reverse;
 }
@@ -602,5 +611,18 @@ nav a {
     .bgpart2 {
         height: 34px;
         width: 34px;
+    }
+    .trendytittle {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .trendy1 {
+        margin-inline: 10px;
+    }
+    .trendytittle {
+        font-size: 30px;
     }
 }
